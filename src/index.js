@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { AmplifyProvider } from '@aws-amplify/ui-react';
-import '@aws-amplify/ui-react/style.css';
+// import '@aws-amplify/ui-react/style.css';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
