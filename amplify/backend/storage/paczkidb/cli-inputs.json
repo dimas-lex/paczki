@@ -1,0 +1,31 @@
+{
+  "resourceName": "paczkidb",
+  "tableName": "paczki",
+  "partitionKey": {
+    "fieldName": "id",
+    "fieldType": "string"
+  },
+  "sortKey": {
+    "fieldName": "email",
+    "fieldType": "string"
+  },
+  "gsi": [
+    {
+      "name": "senderPhoneSK",
+      "partitionKey": {
+        "fieldName": "senderPhone",
+        "fieldType": "string"
+      }
+    },
+    {
+      "name": "receiverPhoneSK",
+      "partitionKey": {
+        "fieldName": "receiverPhone",
+        "fieldType": "string"
+      }
+    }
+  ],
+  "triggerFunctions": [
+    "paczkidbTriggerf1ce0198"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "paths": {
+    "/paczki/{isbn}": {
+      "name": "/paczki/{isbn}",
+      "lambdaFunction": "paczki69bcfe7a",
+      "permissions": {
+        "setting": "private",
+        "auth": [
+          "create"
+        ]
+      }
+    }
+  }
+}
