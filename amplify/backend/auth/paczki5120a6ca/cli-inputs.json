@@ -24,7 +24,7 @@
     ],
     "aliasAttributes": [],
     "userpoolClientGenerateSecret": false,
-    "userpoolClientRefreshTokenValidity": 44000,
+    "userpoolClientRefreshTokenValidity": 14000,
     "userpoolClientWriteAttributes": [
       "email"
     ],
