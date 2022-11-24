@@ -28,7 +28,7 @@ const partitionKeyType = "S";
 const sortKeyName = "email";
 const sortKeyType = "S";
 const hasSortKey = sortKeyName !== "";
-const path = "/paczki/:isbn";
+const path = "/paczki";
 const UNAUTH = 'UNAUTH';
 const hashKeyPath = '/:' + partitionKeyName;
 const sortKeyPath = hasSortKey ? '/:' + sortKeyName : '';
