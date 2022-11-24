@@ -207,7 +207,7 @@
         "paczkidbTriggerPolicy"
       ],
       "Properties": {
-        "BatchSize": 100,
+        "BatchSize": 30,
         "Enabled": true,
         "EventSourceArn": {
           "Ref": "storagepaczkidbStreamArn"
